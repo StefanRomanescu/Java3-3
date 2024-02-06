@@ -1,4 +1,4 @@
-public class creditPaymentService {
+public class CreditPaymentService {
     public double calculate(int loanAmount, double percent, int creditTerm) {
         double payment;
         double monthlyRate = percent / 1_200;
